@@ -20,7 +20,7 @@
 
 ## <font color="#caff56">关于参数3的特殊说明</font>
 假如有个项目Demo，项目结构如下：  
-DemoProject  
+`DemoProject` 
 &nbsp;&nbsp;&nbsp;&nbsp;`- Demo`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`- wsgi.py`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`- ...`  
@@ -28,7 +28,7 @@ DemoProject
 
 则参数三需要传入：`Demo`，如果层级较深，比如：  
 
-DemoProject  
+`DemoProject`  
 &nbsp;&nbsp;&nbsp;&nbsp;`- Demo`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`- SubDemo`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`- wsgi.py`  
@@ -40,7 +40,7 @@ DemoProject
 
 
 ## <font color="#caff56">目前测试的环境</font>
-CentOS7、Django2.1.0、Python2.8.12（后续会测试更多的版本）  
+CentOS7、Django2.1.0、Python3.8.12（后续会测试更多的版本）  
 目前已经发现的问题：Django3.1.2版本及以后的Sqlite版本无法正确识别的问题，以后会想办法解决。  
 
 nginx暂时不支持重启，重启nginx和uwsgi请先暂时移至手动操作。  
