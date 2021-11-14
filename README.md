@@ -19,8 +19,8 @@
 
 
 ## <font color="#caff56">关于参数3的特殊说明</font>
-假如有个项目Demo，项目结构如下：  
-`DemoProject` 
+假如有个项目DemoProject，项目结构如下：  
+`DemoProject`  
 &nbsp;&nbsp;&nbsp;&nbsp;`- Demo`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`- wsgi.py`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`- ...`  
